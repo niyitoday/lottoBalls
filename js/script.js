@@ -1,6 +1,6 @@
 
 var store = [];
-const ballNum = 50;  // Numbers of balls to be generated
+const ballNum = 56;  // Numbers of balls to be generated
 
 var selectedNum;
 for (let x =0; x < ballNum; x++){
@@ -58,6 +58,7 @@ function generateNum(x){
 	randPick.push(pick);
 	store.push(pick);
 	document.getElementById('ballSection').children[sellect].style.backgroundColor="blue";
+	
 	//console.log(randPick);
 	
 
